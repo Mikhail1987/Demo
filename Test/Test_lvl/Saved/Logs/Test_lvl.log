@@ -1,0 +1,1143 @@
+﻿Log file open, 07/06/16 06:47:16
+LogInit:Display: Running engine for game: Test_lvl
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-376595403) SRandInit(-376595401).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.054250
+LogInit: Version: 4.12.4-3028348+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3028348
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jun 27 2016 09:29:04
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Games Projects/UE4/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.06-03.47.16:504][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.06-03.47.16:504][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.06-03.47.16:516][  0]LogInit: Computer: MIKHAIL_ST
+[2016.07.06-03.47.16:516][  0]LogInit: User: MIkhail
+[2016.07.06-03.47.16:516][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.07.06-03.47.16:516][  0]LogInit: High frequency timer resolution =2.435887 MHz
+[2016.07.06-03.47.16:516][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2016.07.06-03.47.16:516][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.06-03.47.16:516][  0]LogMemory: Process Physical Memory: 188.64 MB used, 188.64 MB peak
+[2016.07.06-03.47.16:516][  0]LogMemory: Process Virtual Memory: 195.10 MB used, 195.10 MB peak
+[2016.07.06-03.47.16:516][  0]LogMemory: Physical Memory: 3928.90 MB used, 6058.14 MB total
+[2016.07.06-03.47.16:516][  0]LogMemory: Virtual Memory: 530.44 MB used, 134217728.00 MB total
+[2016.07.06-03.47.16:551][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2016.07.06-03.47.17:422][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.06-03.47.17:497][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 630M' (Feature Level 11_0)
+[2016.07.06-03.47.17:497][  0]LogD3D11RHI:       1995/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.07.06-03.47.17:518][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 630M' (Feature Level 11_0)
+[2016.07.06-03.47.17:518][  0]LogD3D11RHI:       1995/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2016.07.06-03.47.17:519][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.06-03.47.17:519][  0]LogD3D11RHI:       1995/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.07.06-03.47.17:519][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.06-03.47.17:527][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.06-03.47.17:527][  0]LogD3D11RHI:     GPU DeviceId: 0xde9 (for the marketing name, search the web for "GPU Device Id")
+[2016.07.06-03.47.17:527][  0]LogWindows: EnumDisplayDevices:
+[2016.07.06-03.47.17:527][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
+[2016.07.06-03.47.17:527][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2016.07.06-03.47.17:527][  0]LogWindows:    2. 'NVIDIA GeForce GT 630M' (P:0 D:0)
+[2016.07.06-03.47.17:527][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2016.07.06-03.47.17:527][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 630M
+[2016.07.06-03.47.17:527][  0]LogD3D11RHI:   Driver Version: 368.22 (internal:10.18.13.6822, unified:368.22)
+[2016.07.06-03.47.17:527][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2016.07.06-03.47.17:528][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.06-03.47.17:636][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.06-03.47.17:657][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.07.06-03.47.17:657][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Demo_UE4/Demo/Test/Test_lvl/Intermediate/Shaders/WorkingDirectory/2948/).
+[2016.07.06-03.47.17:658][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MIkhail/AppData/Local/Temp/UnrealShaderWorkingDir/100EB41F4A81F68C1C838F9D982B6888/'.
+[2016.07.06-03.47.17:658][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.06-03.47.23:420][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.06-03.47.23:430][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.06-03.47.23:440][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.06-03.47.23:450][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.06-03.47.23:461][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.06-03.47.23:470][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.06-03.47.23:480][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.06-03.47.23:489][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.06-03.47.23:498][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.06-03.47.23:506][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.06-03.47.23:516][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.06-03.47.23:534][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.06-03.47.23:534][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.06-03.47.23:535][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.06-03.47.23:559][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.06-03.47.23:568][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.06-03.47.23:577][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.06-03.47.23:586][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.06-03.47.23:596][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.06-03.47.23:596][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.06-03.47.23:693][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.06-03.47.23:780][  0]LogDerivedDataCache: Loaded boot cache 0.09s 62MB C:/Users/MIkhail/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.06-03.47.23:781][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MIkhail/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.07.06-03.47.23:781][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Demo_UE4/Demo/Test/Test_lvl/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.06-03.47.23:781][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.06-03.47.23:781][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Demo_UE4/Demo/Test/Test_lvl/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.06-03.47.23:781][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.06-03.47.23:803][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.06-03.47.23:815][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MIkhail/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.06-03.47.24:230][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.06-03.47.24:230][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.06-03.47.24:444][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.06-03.47.24:444][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.06-03.47.24:444][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.06-03.47.24:810][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2016.07.06-03.47.24:836][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.023280 seconds
+[2016.07.06-03.47.24:844][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.07.06-03.47.24:844][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.07.06-03.47.24:844][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.06-03.47.24:854][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.06-03.47.25:064][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.06-03.47.25:064][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.06-03.47.25:967][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.06-03.47.26:211][  0]SourceControl: Info Source control is disabled
+[2016.07.06-03.47.26:302][  0]SourceControl: Info Source control is disabled
+[2016.07.06-03.47.26:310][  0]SourceControl: Info Source control is disabled
+[2016.07.06-03.47.26:316][  0]SourceControl: Info Source control is disabled
+[2016.07.06-03.47.26:502][  0]LogEngine: Initializing Engine...
+[2016.07.06-03.47.26:503][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.06-03.47.26:504][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.06-03.47.26:696][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.06-03.47.26:700][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-03.47.26:713][  0]LogInit: FAudioDevice initialized.
+[2016.07.06-03.47.26:769][  0]LogDerivedDataCache: Saved boot cache 0.06s 62MB C:/Users/MIkhail/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.07.06-03.47.26:784][  0]LogInit: Texture streaming: Enabled
+[2016.07.06-03.47.26:807][  0]LogInit: Transaction tracking system initialized
+[2016.07.06-03.47.26:829][  0]BlueprintLog: New page: Editor Load
+[2016.07.06-03.47.26:995][  0]LocalizationService: Info Localization service is disabled
+[2016.07.06-03.47.27:087][  0]LogConsoleResponse:Display: 
+[2016.07.06-03.47.27:234][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.06-03.47.27:234][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.06-03.47.27:331][  0]LogFileCache: Scanning file cache for directory 'E:/Games Projects/Demo_UE4/Demo/Test/Test_lvl/Content/' took 0.01s
+[2016.07.06-03.47.27:331][  0]SourceControl: Info Source control is disabled
+[2016.07.06-03.47.27:489][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/Games Projects/UE4/Epic Games/4.12/FeaturePacks/StarterContent.upack)
+[2016.07.06-03.47.27:557][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.07.06-03.47.27:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.07.06-03.47.27:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.07.06-03.47.27:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.07.06-03.47.27:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.07.06-03.47.27:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.07.06-03.47.27:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.07.06-03.47.27:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.07.06-03.47.27:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.07.06-03.47.27:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.07.06-03.47.27:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.07.06-03.47.27:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.07.06-03.47.27:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.07.06-03.47.27:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.07.06-03.47.28:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.07.06-03.47.28:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.07.06-03.47.28:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.07.06-03.47.28:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.07.06-03.47.28:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Fire01.uasset"
+[2016.07.06-03.47.28:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.07.06-03.47.28:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.07.06-03.47.28:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.07.06-03.47.28:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Light01.uasset"
+[2016.07.06-03.47.28:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.07.06-03.47.28:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Light02.uasset"
+[2016.07.06-03.47.28:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.07.06-03.47.28:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.07.06-03.47.28:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.07.06-03.47.28:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.07.06-03.47.28:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.07.06-03.47.28:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.07.06-03.47.28:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.07.06-03.47.29:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.07.06-03.47.29:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.07.06-03.47.29:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Steam01.uasset"
+[2016.07.06-03.47.29:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.07.06-03.47.29:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.07.06-03.47.29:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.07.06-03.47.29:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.07.06-03.47.29:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.07.06-03.47.29:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.07.06-03.47.29:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.07.06-03.47.29:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.07.06-03.47.29:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.07.06-03.47.29:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.07.06-03.47.29:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.07.06-03.47.29:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.07.06-03.47.29:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.07.06-03.47.29:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.07.06-03.47.29:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.07.06-03.47.29:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.07.06-03.47.30:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.07.06-03.47.33:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.07.06-03.47.34:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.07.06-03.47.34:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.07.06-03.47.34:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Maps/StarterMap.umap"
+[2016.07.06-03.47.34:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.07.06-03.47.34:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.07.06-03.47.34:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.07.06-03.47.34:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.07.06-03.47.34:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.07.06-03.47.34:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.07.06-03.47.35:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.07.06-03.47.35:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.07.06-03.47.35:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.07.06-03.47.35:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.07.06-03.47.35:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.07.06-03.47.35:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.07.06-03.47.36:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.07.06-03.47.36:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.07.06-03.47.36:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.07.06-03.47.36:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.07.06-03.47.36:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.07.06-03.47.36:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.07.06-03.47.36:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.07.06-03.47.36:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.07.06-03.47.36:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.07.06-03.47.36:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.07.06-03.47.36:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.07.06-03.47.37:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.07.06-03.47.37:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.07.06-03.47.37:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.07.06-03.47.37:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.07.06-03.47.37:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.07.06-03.47.37:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.07.06-03.47.37:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.07.06-03.47.37:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.07.06-03.47.37:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.07.06-03.47.37:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.07.06-03.47.37:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.07.06-03.47.37:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.07.06-03.47.38:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.07.06-03.47.38:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.07.06-03.47.38:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.07.06-03.47.38:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.07.06-03.47.38:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.07.06-03.47.38:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.07.06-03.47.38:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.07.06-03.47.38:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.07.06-03.47.38:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.07.06-03.47.38:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.07.06-03.47.38:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.07.06-03.47.38:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.07.06-03.47.38:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.07.06-03.47.38:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.07.06-03.47.38:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.07.06-03.47.39:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.07.06-03.47.39:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.07.06-03.47.39:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.07.06-03.47.39:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.07.06-03.47.39:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.07.06-03.47.39:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.07.06-03.47.39:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.07.06-03.47.39:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.07.06-03.47.39:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.07.06-03.47.39:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.07.06-03.47.39:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.07.06-03.47.39:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.07.06-03.47.39:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.07.06-03.47.40:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.07.06-03.47.40:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Door.uasset"
+[2016.07.06-03.47.40:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.07.06-03.47.40:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.07.06-03.47.40:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.07.06-03.47.40:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.07.06-03.47.40:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.07.06-03.47.40:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.07.06-03.47.40:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.07.06-03.47.40:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.07.06-03.47.41:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.07.06-03.47.41:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.07.06-03.47.41:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.07.06-03.47.41:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.07.06-03.47.41:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.07.06-03.47.41:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.07.06-03.47.41:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.07.06-03.47.41:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.07.06-03.47.41:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.07.06-03.47.41:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.07.06-03.47.41:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.07.06-03.47.41:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.07.06-03.47.41:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.07.06-03.47.41:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.07.06-03.47.41:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.07.06-03.47.41:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.07.06-03.47.41:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.07.06-03.47.41:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.07.06-03.47.41:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.07.06-03.47.42:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.07.06-03.47.42:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.07.06-03.47.42:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.07.06-03.47.42:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.07.06-03.47.42:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.07.06-03.47.42:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.07.06-03.47.42:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.07.06-03.47.42:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.07.06-03.47.42:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.07.06-03.47.42:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.07.06-03.47.42:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.07.06-03.47.42:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.07.06-03.47.42:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.07.06-03.47.42:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.07.06-03.47.42:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.07.06-03.47.42:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.07.06-03.47.42:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.07.06-03.47.42:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.07.06-03.47.43:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.07.06-03.47.43:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.07.06-03.47.43:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.07.06-03.47.44:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.07.06-03.47.44:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.07.06-03.47.44:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.07.06-03.47.44:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.07.06-03.47.45:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.07.06-03.47.45:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.07.06-03.47.45:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.07.06-03.47.45:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.07.06-03.47.45:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.07.06-03.47.45:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.07.06-03.47.46:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.07.06-03.47.46:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.07.06-03.47.46:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.07.06-03.47.46:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.07.06-03.47.46:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.07.06-03.47.46:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.07.06-03.47.46:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.07.06-03.47.46:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.07.06-03.47.46:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.07.06-03.47.47:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.07.06-03.47.47:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.07.06-03.47.47:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.07.06-03.47.47:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.07.06-03.47.48:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.07.06-03.47.48:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.07.06-03.47.49:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.07.06-03.47.49:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.07.06-03.47.50:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.07.06-03.47.50:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.07.06-03.47.50:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.07.06-03.47.50:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.07.06-03.47.51:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.07.06-03.47.51:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.07.06-03.47.51:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.07.06-03.47.51:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.07.06-03.47.51:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.07.06-03.47.51:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.07.06-03.47.51:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.07.06-03.47.52:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.07.06-03.47.52:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.07.06-03.47.52:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.07.06-03.47.52:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.07.06-03.47.52:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.07.06-03.47.52:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.07.06-03.47.52:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.07.06-03.47.53:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.07.06-03.47.53:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.07.06-03.47.53:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.07.06-03.47.54:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.07.06-03.47.54:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.07.06-03.47.54:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.07.06-03.47.54:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.07.06-03.47.55:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.07.06-03.47.55:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.07.06-03.47.55:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.07.06-03.47.56:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.07.06-03.47.56:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.07.06-03.47.56:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.07.06-03.47.57:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.07.06-03.47.57:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.07.06-03.47.57:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.07.06-03.47.57:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.07.06-03.47.57:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.07.06-03.47.57:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.07.06-03.47.58:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.07.06-03.47.59:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.07.06-03.47.59:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.07.06-03.47.59:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.07.06-03.48.00:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.07.06-03.48.01:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.07.06-03.48.01:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.07.06-03.48.02:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.07.06-03.48.02:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.07.06-03.48.02:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.07.06-03.48.02:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.07.06-03.48.02:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.07.06-03.48.02:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.07.06-03.48.02:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.07.06-03.48.02:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.07.06-03.48.02:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.07.06-03.48.02:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.07.06-03.48.03:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.07.06-03.48.03:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.07.06-03.48.03:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.07.06-03.48.03:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.07.06-03.48.03:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.07.06-03.48.03:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.07.06-03.48.03:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.07.06-03.48.03:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.07.06-03.48.03:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.07.06-03.48.03:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.07.06-03.48.04:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.07.06-03.48.04:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.07.06-03.48.04:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.07.06-03.48.04:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.07.06-03.48.05:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.07.06-03.48.05:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.07.06-03.48.05:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.07.06-03.48.06:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.07.06-03.48.08:870][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.07.06-03.48.11:190][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2016.07.06-03.48.11:811][  0]LogSavePackage: Save=466.39ms
+[2016.07.06-03.48.11:811][  0]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/Floor_400x4007290981045E16653BB9AB4938D1DE8CD.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.07.06-03.48.11:830][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.07.06-03.48.11:842][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.07.06-03.48.11:846][  0]Cmd: MAP LOAD FILE="../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.06-03.48.11:846][  0]LightingResults: New page: Lighting Build
+[2016.07.06-03.48.11:849][  0]MapCheck: New page: Map Check
+[2016.07.06-03.48.11:849][  0]LightingResults: New page: Lighting Build
+[2016.07.06-03.48.14:078][  0]LogTexture:Display: Building textures: T_FPGun_N (BC5)
+[2016.07.06-03.48.14:891][  0]LogTexture:Display: Building textures: T_FPGun_M (AutoDXT)
+[2016.07.06-03.48.16:171][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.07.06-03.48.17:184][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.07.06-03.48.25:945][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.07.06-03.48.26:906][  0]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2016.07.06-03.48.27:923][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.07.06-03.48.36:495][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.07.06-03.48.37:412][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.07.06-03.48.45:860][  0]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2016.07.06-03.48.46:001][  0]LogTexture:Display: Building textures: UE4_LOGO_CARD (AutoDXT)
+[2016.07.06-03.48.46:385][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.07.06-03.48.47:322][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.07.06-03.48.55:762][  0]LogTexture:Display: Building textures: FirstPersonCrosshair (AutoDXT)
+[2016.07.06-03.48.56:113][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.07.06-03.48.56:967][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.07.06-03.48.57:756][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.07.06-03.48.58:627][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.07.06-03.48.59:390][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.07.06-03.49.00:876][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.07.06-03.49.02:346][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.07.06-03.49.03:195][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.07.06-03.49.03:245][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.07.06-03.49.03:565][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.07.06-03.49.03:897][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.07.06-03.49.04:223][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.07.06-03.49.04:558][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.07.06-03.49.05:049][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.07.06-03.49.05:487][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.07.06-03.49.05:835][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.07.06-03.49.05:841][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.07.06-03.49.05:870][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.07.06-03.49.06:339][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.07.06-03.49.06:768][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.07.06-03.49.07:146][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.07.06-03.49.07:499][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.07.06-03.49.08:060][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.07.06-03.49.08:667][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.07.06-03.49.09:125][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.07.06-03.49.09:226][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.07.06-03.49.09:332][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2016.07.06-03.49.09:443][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.07.06-03.49.09:546][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2016.07.06-03.49.09:640][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2016.07.06-03.49.09:650][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.07.06-03.49.09:754][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.07.06-03.49.09:900][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-03.49.10:998][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.06-03.49.11:027][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.06-03.49.11:073][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.478ms to complete.
+[2016.07.06-03.49.11:073][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 59.228
+[2016.07.06-03.49.14:217][  0]LogCollectionManager: Loaded 0 collections in 0.001488 seconds
+[2016.07.06-03.49.14:626][  0]LogFileCache: Scanning file cache for directory 'E:/Games Projects/Demo_UE4/Demo/Test/Test_lvl/Saved/Collections/' took 0.01s
+[2016.07.06-03.49.14:626][  0]LogFileCache: Scanning file cache for directory 'E:/Games Projects/Demo_UE4/Demo/Test/Test_lvl/Content/Developers/MIkhail/Collections/' took 0.01s
+[2016.07.06-03.49.14:626][  0]LogFileCache: Scanning file cache for directory 'E:/Games Projects/Demo_UE4/Demo/Test/Test_lvl/Content/Collections/' took 0.01s
+[2016.07.06-03.49.14:626][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2016.07.06-03.49.14:672][  0]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2047 classes and 369 folders.
+[2016.07.06-03.49.15:037][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.058 s
+[2016.07.06-03.49.15:064][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.026 s
+[2016.07.06-03.49.15:099][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.07.06-03.49.15:146][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.07.06-03.49.16:785][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.07.06-03.49.17:787][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.07.06-03.49.19:276][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.06-03.49.19:975][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.06-03.49.20:041][  0]LogTexture:Display: Building textures: Blueprint_64x (BGRA8)
+[2016.07.06-03.49.20:043][  0]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
+[2016.07.06-03.49.20:045][  0]LogTexture:Display: Building textures: Paper2DSprite_TutorialIcon (BGRA8)
+[2016.07.06-03.49.20:048][  0]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2016.07.06-03.49.20:050][  0]LogTexture:Display: Building textures: Landscape (BGRA8)
+[2016.07.06-03.49.20:052][  0]LogTexture:Display: Building textures: Foliage (BGRA8)
+[2016.07.06-03.49.20:231][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.07.06-03.49.20:232][  0]LogLoad: Full Startup: 124.55 seconds (BP compile: 1.01 seconds)
+[2016.07.06-03.49.20:232][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.06-03.49.20:232][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.06-03.49.20:250][  0]LogOcInput: OculusInput pre-init called
+[2016.07.06-03.49.20:912][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.06-03.49.21:425][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
+[2016.07.06-03.49.22:233][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2016.07.06-03.49.24:879][  0]LogRenderer: Reallocating scene render targets to support 856x372 (Frame:3).
+[2016.07.06-03.49.26:226][  3]LogAssetRegistry: Asset discovery search completed in 121.4391 seconds
+[2016.07.06-03.49.26:226][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.06-03.49.26:226][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2016.07.06-03.50.13:484][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.50.13:484][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-03.50.13:940][528]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 8:50:13 AM)
+[2016.07.06-03.50.13:941][528]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-03.50.14:053][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112033s)
+[2016.07.06-03.50.14:054][528]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-03.50.14:054][528]LogPlayLevel: PIE: World Init took: (0.001414s)
+[2016.07.06-03.50.14:077][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.135559s)
+[2016.07.06-03.50.14:264][528]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-03.50.14:280][528]LogInit: FAudioDevice initialized.
+[2016.07.06-03.50.14:733][528]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-03.50.15:001][528]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-06.50.15
+[2016.07.06-03.50.15:100][528]LogWorld: Bringing up level for play took: 0.103602
+[2016.07.06-03.50.15:657][528]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2016.07.06-03.50.15:733][528]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.625
+[2016.07.06-03.50.15:734][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.51.28:695][ 25]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.51.28:981][ 25]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.51.40:558][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.51.43:027][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.51.43:061][397]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.07.06-03.51.46:106][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.51.48:752][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2016.07.06-03.51.56:372][751]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (EditorCube15)
+[2016.07.06-03.51.57:204][775]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (EditorCube16)
+[2016.07.06-03.52.12:026][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.52.15:811][347]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-03.52.21:096][501]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-03.52.55:939][610]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-03.53.08:075][ 10]Cmd: EDIT COPY
+[2016.07.06-03.53.08:465][ 10]Cmd: EDIT PASTE
+[2016.07.06-03.53.43:105][150]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-03.54.10:606][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.54.38:941][952]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-03.54.43:528][ 99]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-03.54.53:930][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.54.53:930][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-03.54.53:930][430]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 8:54:53 AM)
+[2016.07.06-03.54.53:930][430]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-03.54.53:968][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038088s)
+[2016.07.06-03.54.53:970][430]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-03.54.53:970][430]LogPlayLevel: PIE: World Init took: (0.001870s)
+[2016.07.06-03.54.53:970][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040299s)
+[2016.07.06-03.54.54:054][430]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-03.54.54:060][430]LogInit: FAudioDevice initialized.
+[2016.07.06-03.54.54:115][430]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-03.54.54:120][430]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-06.54.54
+[2016.07.06-03.54.54:121][430]LogWorld: Bringing up level for play took: 0.005729
+[2016.07.06-03.54.54:122][430]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.015
+[2016.07.06-03.54.54:122][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.55.07:755][885]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.55.07:821][885]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.56.22:178][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.56.24:466][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.56.24:466][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-03.56.24:467][152]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 8:56:24 AM)
+[2016.07.06-03.56.24:467][152]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-03.56.24:495][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028792s)
+[2016.07.06-03.56.24:497][152]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-03.56.24:497][152]LogPlayLevel: PIE: World Init took: (0.001426s)
+[2016.07.06-03.56.24:497][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030614s)
+[2016.07.06-03.56.24:539][152]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-03.56.24:546][152]LogInit: FAudioDevice initialized.
+[2016.07.06-03.56.24:612][152]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-03.56.24:618][152]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-06.56.24
+[2016.07.06-03.56.24:619][152]LogWorld: Bringing up level for play took: 0.006479
+[2016.07.06-03.56.24:620][152]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.488
+[2016.07.06-03.56.24:620][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.56.39:498][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.56.39:579][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.57.37:508][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.57.38:333][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.57.45:504][347]Cmd: TRANSACTION UNDO
+[2016.07.06-03.57.45:540][347]LogEditorTransaction: Undo Move Actors
+[2016.07.06-03.57.47:984][405]Cmd: EDIT COPY
+[2016.07.06-03.57.48:180][410]Cmd: EDIT PASTE
+[2016.07.06-03.58.24:447][409]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-03.58.34:147][673]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-03.58.39:206][814]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.58.39:206][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-03.58.39:206][814]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 8:58:39 AM)
+[2016.07.06-03.58.39:207][814]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-03.58.39:242][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034967s)
+[2016.07.06-03.58.39:243][814]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-03.58.39:243][814]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2016.07.06-03.58.39:243][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036687s)
+[2016.07.06-03.58.39:278][814]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-03.58.39:285][814]LogInit: FAudioDevice initialized.
+[2016.07.06-03.58.39:394][814]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-03.58.39:405][814]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-06.58.39
+[2016.07.06-03.58.39:407][814]LogWorld: Bringing up level for play took: 0.011302
+[2016.07.06-03.58.39:410][814]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.302
+[2016.07.06-03.58.39:410][814]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.58.50:181][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.58.50:252][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.58.54:790][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2016.07.06-03.58.57:715][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2016.07.06-03.59.03:024][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2016.07.06-03.59.04:289][512]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (EditorCube20)
+[2016.07.06-03.59.14:485][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.59.24:769][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.59.25:756][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-03.59.28:974][132]Cmd: TRANSACTION UNDO
+[2016.07.06-03.59.28:974][132]LogEditorTransaction: Undo Move Actors
+[2016.07.06-03.59.29:995][154]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.07.06-03.59.54:785][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-03.59.54:785][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-03.59.54:785][691]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 8:59:54 AM)
+[2016.07.06-03.59.54:785][691]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-03.59.54:818][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032742s)
+[2016.07.06-03.59.54:821][691]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-03.59.54:821][691]LogPlayLevel: PIE: World Init took: (0.003205s)
+[2016.07.06-03.59.54:822][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036639s)
+[2016.07.06-03.59.55:002][691]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-03.59.55:007][691]LogInit: FAudioDevice initialized.
+[2016.07.06-03.59.55:062][691]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-03.59.55:068][691]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-06.59.55
+[2016.07.06-03.59.55:069][691]LogWorld: Bringing up level for play took: 0.006170
+[2016.07.06-03.59.55:070][691]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.037
+[2016.07.06-03.59.55:070][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.00.00:105][850]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.00.00:213][850]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.00.28:183][462]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.00.28:183][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-04.00.28:183][462]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 9:00:28 AM)
+[2016.07.06-04.00.28:183][462]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-04.00.28:213][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030181s)
+[2016.07.06-04.00.28:214][462]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-04.00.28:214][462]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2016.07.06-04.00.28:215][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031381s)
+[2016.07.06-04.00.28:336][462]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-04.00.28:361][462]LogInit: FAudioDevice initialized.
+[2016.07.06-04.00.28:471][462]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-04.00.28:482][462]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-07.00.28
+[2016.07.06-04.00.28:483][462]LogWorld: Bringing up level for play took: 0.011792
+[2016.07.06-04.00.28:486][462]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.622
+[2016.07.06-04.00.28:486][462]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.00.30:686][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.00.30:796][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.01.50:055][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.01.50:055][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-04.01.50:056][260]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 9:01:50 AM)
+[2016.07.06-04.01.50:056][260]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-04.01.50:088][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032380s)
+[2016.07.06-04.01.50:089][260]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-04.01.50:090][260]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2016.07.06-04.01.50:090][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034065s)
+[2016.07.06-04.01.50:163][260]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-04.01.50:169][260]LogInit: FAudioDevice initialized.
+[2016.07.06-04.01.50:226][260]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-04.01.50:232][260]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-07.01.50
+[2016.07.06-04.01.50:233][260]LogWorld: Bringing up level for play took: 0.005904
+[2016.07.06-04.01.50:234][260]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.126
+[2016.07.06-04.01.50:234][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.01.59:439][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.01.59:560][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.02.57:501][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.02.57:501][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-04.02.57:501][829]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 9:02:57 AM)
+[2016.07.06-04.02.57:502][829]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-04.02.57:533][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031388s)
+[2016.07.06-04.02.57:534][829]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-04.02.57:535][829]LogPlayLevel: PIE: World Init took: (0.001561s)
+[2016.07.06-04.02.57:535][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033366s)
+[2016.07.06-04.02.57:605][829]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-04.02.57:611][829]LogInit: FAudioDevice initialized.
+[2016.07.06-04.02.57:670][829]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-04.02.57:675][829]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-07.02.57
+[2016.07.06-04.02.57:677][829]LogWorld: Bringing up level for play took: 0.006075
+[2016.07.06-04.02.57:678][829]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.571
+[2016.07.06-04.02.57:678][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.03.09:247][173]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.03.09:365][173]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.03.28:356][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.03.36:973][796]LogTexture:Display: Building textures: WhiteSquareTexture (AutoDXT)
+[2016.07.06-04.03.37:801][796]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.07.06-04.03.37:858][796]LogTexture:Display: Building textures: LandscapeThumbnailWeightmap (BGRA8)
+[2016.07.06-04.03.37:880][796]LogTexture:Display: Building textures: LandscapeThumbnailHeightmap (BGRA8)
+[2016.07.06-04.04.11:634][534]LogTexture:Display: Building textures: CameraActor_64x (BGRA8)
+[2016.07.06-04.04.11:763][534]LogTexture:Display: Building textures: BlueprintInterface_64x (BGRA8)
+[2016.07.06-04.04.11:786][534]LogTexture:Display: Building textures: BlueprintMacroLibrary_64x (BGRA8)
+[2016.07.06-04.04.12:270][534]LogTexture:Display: Building textures: IOS (BGRA8)
+[2016.07.06-04.04.12:311][534]LogTexture:Display: Building textures: android_Icon (BGRA8)
+[2016.07.06-04.04.12:398][534]LogTexture:Display: Building textures: Paper2DFlipbook_TutorialIcon (BGRA8)
+[2016.07.06-04.05.04:411][842]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall needed to have new flag set bUsedWithLandscape !
+[2016.07.06-04.05.04:413][842]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2016.07.06-04.05.04:817][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:994][842]LogMaterial: 0.02 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:995][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:996][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:996][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:997][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:997][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:998][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:998][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:999][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.04:999][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:000][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:000][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:001][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:002][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:002][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:003][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:003][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:004][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:004][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:005][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:005][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:006][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:006][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:007][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:007][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:008][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:008][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:009][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:009][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:010][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:010][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:011][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:011][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:012][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:012][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:013][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:013][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:014][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:014][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:015][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:015][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:016][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:016][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:017][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:017][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:018][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:018][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:019][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:019][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:020][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:020][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:021][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:021][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:022][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:022][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:023][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:023][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:024][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:024][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:025][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:025][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:026][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:026][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:027][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.05:129][842]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2016.07.06-04.05.05:429][843]Cmd: UpdateLandscapeEditorData
+[2016.07.06-04.05.17:996][111]Cmd: TRANSACTION UNDO
+[2016.07.06-04.05.17:996][111]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.05.18:090][111]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2016.07.06-04.05.18:122][111]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.18:199][111]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.18:202][111]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.18:205][111]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.32:296][377]Cmd: TRANSACTION UNDO
+[2016.07.06-04.05.32:296][377]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.05.32:304][377]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2016.07.06-04.05.32:337][377]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.32:340][377]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.32:343][377]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.32:346][377]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.33:007][384]Cmd: TRANSACTION UNDO
+[2016.07.06-04.05.33:007][384]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.05.33:023][384]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.33:026][384]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.33:030][384]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.05.33:033][384]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.06.28:756][345]LogTexture:Display: Building textures: T_Rock_Basalt_D (AutoDXT)
+[2016.07.06-04.06.39:130][345]LogTexture:Display: Building textures: T_Rock_Basalt_N (BC5)
+[2016.07.06-04.06.40:540][345]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2016.07.06-04.06.49:584][345]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
+[2016.07.06-04.07.05:131][346]LogSavePackage: Save=5678.16ms
+[2016.07.06-04.07.05:131][346]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/FirstPersonExampleMap_Auto135D527264D9F5D9D2A01DEAE84A566BF.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2016.07.06-04.07.05:132][346]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.07.06-04.07.05:162][346]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 5.902
+[2016.07.06-04.07.05:162][346]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.902
+[2016.07.06-04.07.05:164][346]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Basic_Wall] ([1] browsable assets)...
+[2016.07.06-04.07.05:265][346]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall]
+[2016.07.06-04.07.05:265][346]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Basic_Wall]
+[2016.07.06-04.07.05:312][346]LogSavePackage: Save=41.71ms
+[2016.07.06-04.07.05:312][346]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/M_Basic_Wall_Auto156ECAF664430B28DC800318B7A5764A0.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/Autosaves/Game/StarterContent/Materials/M_Basic_Wall_Auto1.uasset'
+[2016.07.06-04.07.05:312][346]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/Autosaves/Game/StarterContent/Materials/M_Basic_Wall_Auto1.uasset
+[2016.07.06-04.07.05:312][346]LogFileHelpers: Auto-saving content packages took 0.150
+[2016.07.06-04.07.13:174][413]LogSavePackage: Save=4942.18ms
+[2016.07.06-04.07.13:174][413]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/FirstPersonExampleMapE82E516E4BEB5E60A1EF209A2E7602A3.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.07.06-04.07.13:181][413]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.07.06-04.07.13:263][413]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 5.162
+[2016.07.06-04.07.13:268][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Basic_Wall" FILE="../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Basic_Wall.uasset" SILENT=true
+[2016.07.06-04.07.13:282][413]LogSavePackage: Save=6.27ms
+[2016.07.06-04.07.13:282][413]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/M_Basic_Wall8613AB8242D79D62394655B35D196423.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Basic_Wall.uasset'
+[2016.07.06-04.07.13:284][413]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2016.07.06-04.07.21:428][581]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Rock_Basalt.M_Rock_Basalt needed to have new flag set bUsedWithLandscape !
+[2016.07.06-04.07.21:431][581]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2016.07.06-04.07.21:560][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:560][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:561][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:561][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:562][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:562][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:563][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:563][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:563][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:564][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:564][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:564][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:565][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:565][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:565][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:566][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:566][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:567][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:567][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:568][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:568][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:568][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:569][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:569][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:569][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:570][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:570][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:570][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:571][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:571][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:571][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:572][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:572][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:573][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:573][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:573][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:573][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:574][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:574][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:574][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:575][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:575][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:576][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:576][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:576][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:577][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:577][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:578][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:578][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:579][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:579][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:580][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:580][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:581][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:581][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:582][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:582][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:583][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:583][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:583][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:584][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:584][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:585][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:585][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:586][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.07.21:663][581]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.07.21:750][582]Cmd: UpdateLandscapeEditorData
+[2016.07.06-04.08.02:251][426]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2016.07.06-04.08.28:331][932]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.28:331][932]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.28:383][932]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.28:385][932]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.28:387][932]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.28:776][938]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.28:776][938]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2016.07.06-04.08.29:215][946]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.29:215][946]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.29:268][946]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.29:270][946]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.29:271][946]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.29:655][953]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.29:655][953]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.29:707][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.29:709][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.29:710][953]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.29:867][955]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.29:867][955]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.29:870][955]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.29:872][955]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.29:874][955]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.30:089][959]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.30:089][959]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.30:140][959]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.30:142][959]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.30:143][959]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.30:346][963]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.30:346][963]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.30:397][963]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.30:399][963]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.30:400][963]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.30:603][967]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.30:603][967]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.30:655][967]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.30:657][967]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.30:658][967]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.30:859][971]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.30:859][971]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.30:911][971]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.30:913][971]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.30:915][971]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.31:112][975]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.31:113][975]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.31:165][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.31:166][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.31:168][975]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.31:364][979]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.31:364][979]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.31:414][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.31:417][979]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.31:853][988]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.31:853][988]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.31:903][988]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.31:905][988]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.32:357][997]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.32:357][997]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.32:408][997]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.32:410][997]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.32:850][  6]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.32:850][  6]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.32:900][  6]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.32:902][  6]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.33:280][ 14]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.33:281][ 14]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.33:331][ 14]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.33:333][ 14]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.33:811][ 24]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.33:811][ 24]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.33:860][ 24]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.33:862][ 24]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.45:639][259]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.45:639][259]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.45:691][259]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.45:693][259]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.45:695][259]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.45:852][261]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.45:853][261]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.45:866][261]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.45:867][261]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.45:869][261]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.46:097][264]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.46:097][264]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.46:115][264]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:116][264]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:118][264]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.46:355][268]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.46:355][268]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.46:409][268]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.46:425][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:427][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:428][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:430][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:572][271]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.46:572][271]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.46:631][271]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:632][271]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:633][271]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:635][271]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:825][275]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.46:825][275]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.46:879][275]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.46:897][275]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:898][275]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:900][275]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.46:902][275]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.47:416][285]Cmd: TRANSACTION UNDO
+[2016.07.06-04.08.47:416][285]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.07.06-04.08.47:469][285]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.08.47:486][285]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.47:488][285]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.47:490][285]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.08.47:492][285]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-04.09.02:444][572]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2016.07.06-04.09.08:693][572]LogSavePackage: Save=6306.73ms
+[2016.07.06-04.09.08:693][572]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/FirstPersonExampleMap306D9CF5453CF1B28C3931B20361D44D.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.07.06-04.09.08:697][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.07.06-04.09.08:719][572]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 6.414
+[2016.07.06-04.09.08:784][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Rock_Basalt" FILE="../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Rock_Basalt.uasset" SILENT=true
+[2016.07.06-04.09.08:817][572]LogSavePackage: Save=28.18ms
+[2016.07.06-04.09.08:817][572]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/M_Rock_Basalt80DED3FA4CBEBED45DE0B2933E18D514.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Rock_Basalt.uasset'
+[2016.07.06-04.09.08:850][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2016.07.06-04.09.33:317][192]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.10.11:117][159]Cmd: EDIT COPY
+[2016.07.06-04.10.11:547][169]Cmd: EDIT PASTE
+[2016.07.06-04.10.16:625][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.10.38:092][762]Cmd: TRANSACTION UNDO
+[2016.07.06-04.10.38:092][762]LogEditorTransaction: Undo Move Actors
+[2016.07.06-04.10.38:142][762]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.07.06-04.10.38:150][762]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CurvedStairBrush.BrushComponent0) Component already registered.
+[2016.07.06-04.10.38:150][762]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ConeBrush.BrushComponent0) Component already registered.
+[2016.07.06-04.10.38:151][762]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2016.07.06-04.10.53:933][112]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.11.31:933][966]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2016.07.06-04.11.51:390][367]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.11.56:954][493]Cmd: EDIT COPY
+[2016.07.06-04.11.57:472][505]Cmd: EDIT PASTE
+[2016.07.06-04.12.03:160][625]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.07.06-04.12.34:368][293]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.13.13:895][ 18]LogSavePackage: Save=5594.35ms
+[2016.07.06-04.13.13:895][ 18]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/FirstPersonExampleMapE295941249E1A83E76BF92B4AF99A79F.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.07.06-04.13.13:899][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.07.06-04.13.13:983][ 18]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 5.824
+[2016.07.06-04.17.49:825][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.18.39:922][101]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_N (BC5)
+[2016.07.06-04.18.41:446][101]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_M (AutoDXT)
+[2016.07.06-04.18.52:183][101]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_D (AutoDXT)
+[2016.07.06-04.19.20:978][458]LogTexture:Display: Building textures: T_Brick_Cut_Stone_D (AutoDXT)
+[2016.07.06-04.19.30:994][458]LogTexture:Display: Building textures: T_Brick_Cut_Stone_N (BC5)
+[2016.07.06-04.19.36:150][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.20.04:259][195]LogEditorViewport: Clicking on Actor (LMB): Brush (Curved Stair Brush)
+[2016.07.06-04.20.55:995][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.21.08:297][600]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall2)
+[2016.07.06-04.21.42:403][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.21.44:008][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.21.44:008][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-04.21.44:008][270]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 9:21:44 AM)
+[2016.07.06-04.21.44:009][270]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-04.21.44:187][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178481s)
+[2016.07.06-04.21.44:189][270]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-04.21.44:190][270]LogPlayLevel: PIE: World Init took: (0.002594s)
+[2016.07.06-04.21.44:190][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.181819s)
+[2016.07.06-04.21.44:259][270]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-04.21.44:270][270]LogInit: FAudioDevice initialized.
+[2016.07.06-04.21.44:346][270]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-04.21.44:378][270]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-07.21.44
+[2016.07.06-04.21.44:428][270]LogWorld: Bringing up level for play took: 0.079313
+[2016.07.06-04.21.44:492][270]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.07.06-04.21.44:500][270]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.392
+[2016.07.06-04.21.44:500][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.21.55:340][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.21.55:421][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.22.04:202][758]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.22.39:489][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.22.49:882][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.24.07:799][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.24.10:320][544]Cmd: SELECT NONE
+[2016.07.06-04.24.52:607][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.25.10:729][738]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.25.11:414][751]Cmd: TRANSACTION UNDO
+[2016.07.06-04.25.11:414][751]LogEditorTransaction: Undo Brush Add
+[2016.07.06-04.25.11:514][751]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2016.07.06-04.25.11:517][751]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_314' invalid (6558 verts, 0 indices).
+[2016.07.06-04.25.11:518][751]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_315' invalid (6558 verts, 0 indices).
+[2016.07.06-04.25.11:518][751]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_316' invalid (6558 verts, 0 indices).
+[2016.07.06-04.25.11:518][751]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_317' invalid (6558 verts, 0 indices).
+[2016.07.06-04.25.11:519][751]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_318' invalid (6558 verts, 0 indices).
+[2016.07.06-04.25.11:519][751]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_319' invalid (6558 verts, 0 indices).
+[2016.07.06-04.25.11:539][751]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2016.07.06-04.25.15:744][835]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.25.41:639][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.25.50:660][569]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.26.36:356][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.26.45:809][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.26.52:120][893]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.28.03:522][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.28.47:553][148]LogTexture:Display: Building textures: T_RockMesh_M (DXT1)
+[2016.07.06-04.28.51:644][148]LogTexture:Display: Building textures: T_RockMesh_N (BC5)
+[2016.07.06-04.28.52:679][148]LogTexture:Display: Building textures: T_Detail_Rocky_N (BC5)
+[2016.07.06-04.29.09:193][491]LogTexture:Display: Building textures: T_Rock_Marble_Polished_D (AutoDXT)
+[2016.07.06-04.29.14:456][491]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2016.07.06-04.29.50:753][287]Cmd: TRANSACTION UNDO
+[2016.07.06-04.29.50:754][287]LogEditorTransaction: Undo Move Actors
+[2016.07.06-04.29.50:799][287]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2016.07.06-04.29.50:799][287]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2016.07.06-04.29.50:813][287]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_524' invalid (7769 verts, 0 indices).
+[2016.07.06-04.29.50:813][287]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_525' invalid (7769 verts, 0 indices).
+[2016.07.06-04.29.50:813][287]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_526' invalid (7769 verts, 0 indices).
+[2016.07.06-04.29.50:814][287]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_527' invalid (7769 verts, 0 indices).
+[2016.07.06-04.29.50:814][287]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_528' invalid (7769 verts, 0 indices).
+[2016.07.06-04.29.50:814][287]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_529' invalid (7769 verts, 0 indices).
+[2016.07.06-04.29.50:816][287]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2016.07.06-04.29.51:626][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.29.52:888][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.30.06:573][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.30.16:278][849]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.30.32:809][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.31.11:885][973]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2016.07.06-04.31.23:328][204]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.31.24:980][241]Cmd: TRANSACTION UNDO
+[2016.07.06-04.31.24:980][241]LogEditorTransaction: Undo Brush Add
+[2016.07.06-04.31.25:041][241]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_560' invalid (8083 verts, 0 indices).
+[2016.07.06-04.31.25:041][241]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_561' invalid (8083 verts, 0 indices).
+[2016.07.06-04.31.25:042][241]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_562' invalid (8083 verts, 0 indices).
+[2016.07.06-04.31.25:042][241]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_563' invalid (8083 verts, 0 indices).
+[2016.07.06-04.31.25:042][241]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_564' invalid (8083 verts, 0 indices).
+[2016.07.06-04.31.25:042][241]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_565' invalid (8083 verts, 0 indices).
+[2016.07.06-04.31.28:298][308]Cmd: EDIT COPY
+[2016.07.06-04.31.28:656][316]Cmd: EDIT PASTE
+[2016.07.06-04.32.12:206][260]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.32.41:695][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.32.59:466][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.07.06-04.33.25:741][768]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.07.06-04.33.29:902][863]Cmd: TRANSACTION UNDO
+[2016.07.06-04.33.29:902][863]LogEditorTransaction: Undo Move Actors
+[2016.07.06-04.33.29:954][863]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2016.07.06-04.33.29:971][863]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2016.07.06-04.33.30:699][879]Cmd: TRANSACTION UNDO
+[2016.07.06-04.33.30:699][879]LogEditorTransaction: Undo Brush Add
+[2016.07.06-04.33.30:759][879]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_698' invalid (8607 verts, 0 indices).
+[2016.07.06-04.33.30:759][879]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_699' invalid (8607 verts, 0 indices).
+[2016.07.06-04.33.30:759][879]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_700' invalid (8607 verts, 0 indices).
+[2016.07.06-04.33.30:760][879]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_701' invalid (8607 verts, 0 indices).
+[2016.07.06-04.33.30:760][879]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_702' invalid (8607 verts, 0 indices).
+[2016.07.06-04.33.30:760][879]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ModelComponent_703' invalid (8607 verts, 0 indices).
+[2016.07.06-04.33.53:857][241]LogSavePackage: Save=5877.61ms
+[2016.07.06-04.33.53:857][241]LogSavePackage: Moving '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Saved/FirstPersonExampleMapC89554C24247150348D5648940AA1D9E.tmp' to '../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.07.06-04.33.53:861][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Demo_UE4/Demo/Test/Test_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.07.06-04.33.53:895][241]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 6.156
+[2016.07.06-04.33.54:730][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.33.54:730][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-04.33.54:730][263]PIE: New page: PIE session: FirstPersonExampleMap (Jul 6, 2016, 9:33:54 AM)
+[2016.07.06-04.33.54:730][263]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.07.06-04.33.54:793][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063360s)
+[2016.07.06-04.33.54:795][263]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.07.06-04.33.54:795][263]LogPlayLevel: PIE: World Init took: (0.001388s)
+[2016.07.06-04.33.54:795][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.065099s)
+[2016.07.06-04.33.54:835][263]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-04.33.54:842][263]LogInit: FAudioDevice initialized.
+[2016.07.06-04.33.54:901][263]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.07.06-04.33.54:926][263]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.07.06-07.33.54
+[2016.07.06-04.33.54:928][263]LogWorld: Bringing up level for play took: 0.025790
+[2016.07.06-04.33.54:929][263]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.07.06-04.33.54:930][263]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.178
+[2016.07.06-04.33.54:930][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.34.27:680][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.34.27:757][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.07.06-04.34.36:932]
